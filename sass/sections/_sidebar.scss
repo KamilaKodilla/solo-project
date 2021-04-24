@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: $sidebar-color;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.logo ul {
+  font-family: $logo-font;
+  font-size: 20px;
+  padding-left: 5px;
+  list-style-type: none;
+  color: $sidebar-text-color;
+  display: inline-flex;
+}
+.logo li {
+  display: inline;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.logo i {
+  padding-left: 80px;
+}
+
+.menu li {
+  font-size: 15px;
+  list-style-type: none;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  text-decoration: none;
+  color: $sidebar-text-color;
+}
+
+.menu a {
+  color: $sidebar-text-color;
+  text-decoration: none;
+  padding-left: 8px;
+}
+
+.menu i {
+  padding-right: 8px;
+  padding-left: 0px;
+}
