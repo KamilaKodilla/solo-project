@@ -1,7 +1,7 @@
-.sidebar {
-  background-color: $sidebar-color;
-  padding-left: 0px;
-  padding-right: 0px;
+
+.logo {
+  border-bottom: 2px solid;
+  border-color: $header-color;
 }
 
 .logo ul {
@@ -11,6 +11,7 @@
   list-style-type: none;
   color: $sidebar-text-color;
   display: inline-flex;
+  
 }
 .logo li {
   display: inline;
@@ -19,7 +20,12 @@
 }
 
 .logo i {
-  padding-left: 80px;
+  padding-left: 42px;
+  margin-right: 12px;
+}
+
+.menu {
+  margin-left: -15px;
 }
 
 .menu li {
@@ -40,4 +46,26 @@
 .menu i {
   padding-right: 8px;
   padding-left: 0px;
+  margin-left: 0;
+}
+
+.manager {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 2px solid;
+  border-color: $sidebar-text-color;
+  
+  h3 {
+    font-size: 16px;
+    color: $sidebar-text-color;
+  }
+
+  a {
+    text-decoration: none;
+    color: $sidebar-text-color;
+  }
+
+  img {
+    padding-right: 15px;
+  }
 }

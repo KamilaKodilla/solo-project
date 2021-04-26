@@ -9,8 +9,12 @@
 
 /* Sections */
 @import "sections/sidebar";
+@import "sections/top-menu";
 @import "sections/registration_form";
+
 
 /* Pages / Views */
 
+@import "pages/general";
+@import "pages/links";
 @import "pages/registration";
