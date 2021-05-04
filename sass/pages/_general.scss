@@ -57,29 +57,32 @@ border-bottom-color: $header-color;
 .chart {
   margin-left: 150px;
   margin-bottom: 40px;
-  
-  img {
-  padding-top: 40px;
-  padding-right: 0;
-  margin-right: 0;
-  padding-left: 43px;
-}
 }
 
-table {
+.chart-image {
+  padding-top: 40px;
+  padding-right: 0;
+  margin-right: -30px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.statistic {
   padding-top: 40px;
   padding-left: 150px;
-  border-collapse: collapse;
+  border-collapse: collapse; 
+  display: inline-block;
 
   td {
     border-bottom: 1px solid;
     border-bottom-color: $header-color;
-    padding-right: 40px;
+    padding-right: 10px;
     padding-bottom: 15px;
     padding-top: 30px;
   }
-
+  
   tr {
     padding-left: 15px;
   }
 }
+
