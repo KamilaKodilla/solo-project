@@ -30,6 +30,12 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .formlogin:last-of-type {
+  border: none;
+  margin-left: 50px; 
+}
+
 }
 
 .formlogin {
@@ -53,10 +59,7 @@
   }
 }
 
-.formlogin:last-of-type {
-  border: none;
-  margin-left: 50px; 
-}
+
 
 
 
