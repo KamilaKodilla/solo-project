@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="vendor/range-slider.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -501,9 +502,60 @@
             </div>
           </div>
 
-          <div class="postback"></div>
-
+          <div class="postback">
+            <h2>NEW POSTBACK</h2>
+            <p>You can insert some parameters in this postback:</p>
+            <div class="title-textarea">
+              <h4>Signup</h4>
+              <h4>Deposit</h4>
+            </div>
+            <br>
+            <div class="textarea">
+              <textarea cols="59" rows="10" maxlength="1000" placeholder="crm_userId=%user_id% subid=%p%"></textarea>
+            </div>
+            <div class="textarea">
+              <textarea cols="59" rows="10" maxlength="1000" placeholder="crm_userId=%user_id% subid=%p%"></textarea>
+            </div>
+            <div class="secondrow">
+              <h4>Postback type</h4>
+              <h4>To countries</h4>
+              <h4>Sending options:</h4>
+            </div>
+            <br>
+            <div class="formlogin-2">
+              <input type="text" name="weight-height" required value="S2S (http://...)"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="formlogin-2">
+              <input type="text" name="design" required value="Select countries"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="formlogin-2">
+              <input type="text" name="Filetype" required value="Select"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="send_statuses">
+              <div class="statuses">  
+                <p>NOT send statuses</p>
+                <ul>
+                  <li><input type="checkbox" name="send_statuses" value="checkNumber">CheckNumber</li>
+                  <li><input type="checkbox" name="send_statuses" value="noAnswer">noAnswer</li>
+                  <li><input type="checkbox" name="send_statuses" value="noCall">noCall</i></li>
+                  <li><input type="checkbox" name="send_statuses" value="callAgain">callAgain</i></li>
+                  <li><input type="checkbox" name="send_statuses" value="noAnswer">noAnswer</li>
+                  <li><input type="checkbox" name="send_statuses" value="noCall">noCall</i></li>
+                  <li><input type="checkbox" name="send_statuses" value="callAgain">callAgain</i></li>
+                </ul>
+              </div>
+              <div class="statuses">
+                <p>Send after:</p>
+                <ul>
+                  <li>0<input type="range" min="0" max="168" step="10">168</li>
+                </ul>
+              </div>  
+            </div>
+            <div class="create_pixel">
+              <button type="submit" class="btn">Create Pixel</button>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
