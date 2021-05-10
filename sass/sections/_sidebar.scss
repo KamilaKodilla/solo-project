@@ -21,7 +21,7 @@
 }
 
 .logo i {
-  padding-left: 82px;
+  padding-left: 52px;
   margin-right: 12px;
 }
 
@@ -49,6 +49,11 @@
   color: $sidebar-text-color;
   text-decoration: none;
   padding-left: 8px;
+  
+  :hover {
+    border-left: 0;
+    padding-left: 0;
+  }
 }
 
 .menu i {
