@@ -143,5 +143,7 @@
 }
 
 @media (max-width: 767px) {
-  
+  .chat {
+    visibility: hidden;
+  }
 }

@@ -52,5 +52,7 @@
 }
 
 @media (max-width: 767px) {
-  
+  .personal-data {
+    visibility: hidden;
+  }
 }

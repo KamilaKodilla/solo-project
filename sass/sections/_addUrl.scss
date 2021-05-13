@@ -173,5 +173,7 @@
 }
 
 @media (max-width: 767px) {
-  
+  .addUrl {
+    visibility: hidden;
+  }
 }

@@ -84,5 +84,7 @@
   }
   
   @media (max-width: 767px) {
-  
+    .banners {
+      visibility: hidden;
+    }
   }

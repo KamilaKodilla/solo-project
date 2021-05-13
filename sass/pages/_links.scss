@@ -75,5 +75,28 @@ tr {
 }
 
 @media (max-width: 767px) {
+  .links .scroll-wrapper {
+    margin-left: -170px;
+  }
   
+  .scroll-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .scroll-wrapper table {
+    width: 120%;
+    max-width: 100%;
+    
+  }
+
+  .links-content .btn {
+    margin-left: -100px;
+
+  }
+
+  .table-links {
+    font-size: 15px;
+  }
 }

@@ -29,5 +29,7 @@
 }
 
 @media (max-width: 767px) {
-  
+  .quit {
+    visibility: hidden;
+  }
 }
