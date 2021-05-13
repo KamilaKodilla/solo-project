@@ -87,3 +87,20 @@
   }
 }
 
+@media (max-width: 767px) {
+  .sidebar {
+    width: fit-content;
+    flex: 0;
+  }
+  .menu, .manager {
+    visibility: hidden;
+  }
+
+  .logo {
+    
+    li:first-of-type {
+      visibility: hidden;
+    }
+  }
+
+}
