@@ -93,6 +93,7 @@
 
 .top-in-sidebar {
   visibility: hidden;
+  
   a {
     color: $header-color;
     text-decoration: none;
@@ -140,19 +141,20 @@
 
 @media (max-width: 767px) {
   .main-menu.show {
-    visibility: visible;
+    display: block;
   }
   
+  .top-in-sidebar {
+    visibility: visible;
+  }
+  .main-menu {
+    display: none;
+  }
   .sidebar {
     width: auto;
-    height: 80px;
     padding-bottom: 5px;
   }
   
-  .menu, .manager, .top-in-sidebar {
-    visibility: hidden;
-  }
-
   .logo {
     padding-left: 30px;
 
