@@ -86,7 +86,7 @@ tr {
   }
 
   .scroll-wrapper table {
-    width: 120%;
+    width: 100%;
     max-width: 100%;
     
   }
@@ -97,6 +97,14 @@ tr {
   }
 
   .table-links {
-    font-size: 15px;
+    font-size: 12px;
+
+    tr td:first-of-type {
+      width: 90px;
+    }
+
+    tr td:nth-child(2) {
+      width: 150px;
+    }
   }
 }
